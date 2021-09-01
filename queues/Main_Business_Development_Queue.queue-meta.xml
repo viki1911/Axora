@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Main Business Development Queue</name>
+    <queueMembers>
+        <users>
+            <user>deliveryteam.axora@cloudshiftgroup.com</user>
+            <user>jessica.lonsdale@axora.com</user>
+            <user>tom.aitken@axora.com</user>
+            <user>will.slough@axora.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Lead</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Task</sobjectType>
+    </queueSobject>
+</Queue>
