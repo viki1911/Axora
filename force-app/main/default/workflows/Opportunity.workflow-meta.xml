@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Clear_dormant_date_when_dormant_is_unche</fullName>
+        <field>Date_Dormant_was_checked__c</field>
+        <name>Clear dormant date when dormant is unche</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Null</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Dormant_date_action</fullName>
+        <field>Date_Dormant_was_checked__c</field>
+        <formula>IF( ISCHANGED(Dormant__c) = true &amp;&amp;
+			ISNULL(Date_Dormant_was_checked__c) = true &amp;&amp;
+			Dormant__c = true, TODAY(), Date_Dormant_was_checked__c)</formula>
+        <name>Update Dormant date when dormant checked</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Update Dormant date to blank when dormant is not checked</fullName>
+        <actions>
+            <name>Clear_dormant_date_when_dormant_is_unche</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.Dormant__c</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <description>This will clear the dormant date when the dormant is unchecked</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update Dormant date when dormant checked</fullName>
+        <actions>
+            <name>Update_Dormant_date_action</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.Dormant__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <description>This will update the Date_Dormant_was_checked__c with the current day</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>
