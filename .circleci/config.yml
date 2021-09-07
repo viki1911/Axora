@@ -17,7 +17,7 @@ jobs:
           paths:
             - node_modules
       - run: 
-          name: Authenticate to Orgs
+          name: Authenticate to Prod
           command: . build/login_to_org.sh
 workflows:
   version: 2
