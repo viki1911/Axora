@@ -17,7 +17,7 @@ jobs:
           paths:
             - node_modules
       - run: 
-          name: Login to Org
+          name: Authenticate to Org
           command: . build/login_to_org.sh
 workflows:
   version: 2
