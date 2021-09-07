@@ -5,17 +5,6 @@ jobs:
       - image: salesforce/salesforcedx:latest-full
     steps:
       - checkout
-      - restore_cache:
-          keys:
-            - dependency-cache-{{ checksum "sfdx-project.json" }}
-            - dependency-cache-
-      - run:
-          name: Install Dependencies
-          command: . build/install_dependencies.sh
-      - save_cache:
-          key: dependency-cache-{{ checksum "sfdx-project.json" }}
-          paths:
-            - node_modules
       - run: 
           name: Authenticate to Production
           command: . build/login_to_org.sh
