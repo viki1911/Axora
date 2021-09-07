@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Main_Business_Development_Queue_Task</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Main Business Development Queue</label>
+    <queue>Main_Business_Development_Queue</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

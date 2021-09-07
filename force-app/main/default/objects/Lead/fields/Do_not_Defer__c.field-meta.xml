@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Do_not_Defer__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Checking this box will mean the lead will not auto defer and remain in your queue</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Checking this box will mean the lead will not auto defer and remain in your queue</inlineHelpText>
+    <label>Do Not Defer</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

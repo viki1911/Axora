@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AreaOfInterest__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>If the lead has indicated a broad area of interest, please select it.</inlineHelpText>
+    <label>Area Of Interest</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Safety Solutions</fullName>
+                <default>false</default>
+                <label>Safety Solutions</label>
+            </value>
+            <value>
+                <fullName>Sustainability Solutions</fullName>
+                <default>false</default>
+                <label>Sustainability Solutions</label>
+            </value>
+            <value>
+                <fullName>Efficiency Solutions</fullName>
+                <default>false</default>
+                <label>Efficiency Solutions</label>
+            </value>
+            <value>
+                <fullName>Axora Productisation</fullName>
+                <default>false</default>
+                <label>Axora Productisation</label>
+            </value>
+            <value>
+                <fullName>Axora Other</fullName>
+                <default>false</default>
+                <label>Axora Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

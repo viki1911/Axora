@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DMC_Primary_Location__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the primary location on the DMC - if multiple please select the lowest possible.</inlineHelpText>
+    <label>DMC Primary Location</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1. Motivation to Move</fullName>
+                <default>true</default>
+                <label>1. Motivation to Move</label>
+            </value>
+            <value>
+                <fullName>2. Intention to Move</fullName>
+                <default>false</default>
+                <label>2. Intention to Move</label>
+            </value>
+            <value>
+                <fullName>3. Preference</fullName>
+                <default>false</default>
+                <label>3. Preference</label>
+            </value>
+            <value>
+                <fullName>4. Decision Point</fullName>
+                <default>false</default>
+                <label>4. Decision Point</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

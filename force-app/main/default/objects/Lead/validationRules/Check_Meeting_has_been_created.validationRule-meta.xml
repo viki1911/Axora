@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_Meeting_has_been_created</fullName>
+    <active>true</active>
+    <description>ensures a task or event has been created before moving past pursuit</description>
+    <errorConditionFormula>( ISPICKVAL(Status, &quot;Pursuit - 1st Meeting&quot;)  ||
+			ISPICKVAL(Status, &quot;Converted&quot;) ) &amp;&amp;   
+			(ISBLANK(LastActivityDate) 	||  Has_an_activity__c = FALSE)</errorConditionFormula>
+    <errorMessage>Please log when you had your meeting or discussion with the client</errorMessage>
+</ValidationRule>

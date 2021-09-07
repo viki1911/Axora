@@ -1,0 +1,865 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tags__c</fullName>
+    <externalId>false</externalId>
+    <label>Tags</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>3D modelling</fullName>
+                <default>false</default>
+                <label>3D modelling</label>
+            </value>
+            <value>
+                <fullName>acid dosage modelling</fullName>
+                <default>false</default>
+                <label>acid dosage modelling</label>
+            </value>
+            <value>
+                <fullName>advanced analytics</fullName>
+                <default>false</default>
+                <label>advanced analytics</label>
+            </value>
+            <value>
+                <fullName>advanced visualisation</fullName>
+                <default>false</default>
+                <label>advanced visualisation</label>
+            </value>
+            <value>
+                <fullName>AI</fullName>
+                <default>false</default>
+                <label>AI</label>
+            </value>
+            <value>
+                <fullName>Artificial Intelligence</fullName>
+                <default>false</default>
+                <label>Artificial Intelligence</label>
+            </value>
+            <value>
+                <fullName>airborne observation</fullName>
+                <default>false</default>
+                <label>airborne observation</label>
+            </value>
+            <value>
+                <fullName>AR</fullName>
+                <default>false</default>
+                <label>AR</label>
+            </value>
+            <value>
+                <fullName>asset lifecycle</fullName>
+                <default>false</default>
+                <label>asset lifecycle</label>
+            </value>
+            <value>
+                <fullName>automation</fullName>
+                <default>false</default>
+                <label>automation</label>
+            </value>
+            <value>
+                <fullName>autonomous vehicles</fullName>
+                <default>false</default>
+                <label>autonomous vehicles</label>
+            </value>
+            <value>
+                <fullName>AUV</fullName>
+                <default>false</default>
+                <label>AUV</label>
+            </value>
+            <value>
+                <fullName>backhoe loaders</fullName>
+                <default>false</default>
+                <label>backhoe loaders</label>
+            </value>
+            <value>
+                <fullName>beneficiation</fullName>
+                <default>false</default>
+                <label>beneficiation</label>
+            </value>
+            <value>
+                <fullName>big data</fullName>
+                <default>false</default>
+                <label>big data</label>
+            </value>
+            <value>
+                <fullName>blasting</fullName>
+                <default>false</default>
+                <label>blasting</label>
+            </value>
+            <value>
+                <fullName>bucket teeth</fullName>
+                <default>false</default>
+                <label>bucket teeth</label>
+            </value>
+            <value>
+                <fullName>cargo management</fullName>
+                <default>false</default>
+                <label>cargo management</label>
+            </value>
+            <value>
+                <fullName>cloud</fullName>
+                <default>false</default>
+                <label>cloud</label>
+            </value>
+            <value>
+                <fullName>CNC</fullName>
+                <default>false</default>
+                <label>CNC</label>
+            </value>
+            <value>
+                <fullName>collaboration</fullName>
+                <default>false</default>
+                <label>collaboration</label>
+            </value>
+            <value>
+                <fullName>commodity price prediction</fullName>
+                <default>false</default>
+                <label>commodity price prediction</label>
+            </value>
+            <value>
+                <fullName>compressors</fullName>
+                <default>false</default>
+                <label>compressors</label>
+            </value>
+            <value>
+                <fullName>computer numerical control machinery</fullName>
+                <default>false</default>
+                <label>computer numerical control machinery</label>
+            </value>
+            <value>
+                <fullName>computer vision</fullName>
+                <default>false</default>
+                <label>computer vision</label>
+            </value>
+            <value>
+                <fullName>construction</fullName>
+                <default>false</default>
+                <label>construction</label>
+            </value>
+            <value>
+                <fullName>contaminants detection</fullName>
+                <default>false</default>
+                <label>contaminants detection</label>
+            </value>
+            <value>
+                <fullName>control valve</fullName>
+                <default>false</default>
+                <label>control valve</label>
+            </value>
+            <value>
+                <fullName>conveyor belts</fullName>
+                <default>false</default>
+                <label>conveyor belts</label>
+            </value>
+            <value>
+                <fullName>corporate function</fullName>
+                <default>false</default>
+                <label>corporate function</label>
+            </value>
+            <value>
+                <fullName>corrosion</fullName>
+                <default>false</default>
+                <label>corrosion</label>
+            </value>
+            <value>
+                <fullName>cost-effective technologies</fullName>
+                <default>false</default>
+                <label>cost-effective technologies</label>
+            </value>
+            <value>
+                <fullName>costs</fullName>
+                <default>false</default>
+                <label>costs</label>
+            </value>
+            <value>
+                <fullName>crane logistics</fullName>
+                <default>false</default>
+                <label>crane logistics</label>
+            </value>
+            <value>
+                <fullName>cybersecurity</fullName>
+                <default>false</default>
+                <label>cybersecurity</label>
+            </value>
+            <value>
+                <fullName>data lakes</fullName>
+                <default>false</default>
+                <label>data lakes</label>
+            </value>
+            <value>
+                <fullName>data processing</fullName>
+                <default>false</default>
+                <label>data processing</label>
+            </value>
+            <value>
+                <fullName>deep learning</fullName>
+                <default>false</default>
+                <label>deep learning</label>
+            </value>
+            <value>
+                <fullName>deep mines</fullName>
+                <default>false</default>
+                <label>deep mines</label>
+            </value>
+            <value>
+                <fullName>dehydration systems</fullName>
+                <default>false</default>
+                <label>dehydration systems</label>
+            </value>
+            <value>
+                <fullName>development and construction</fullName>
+                <default>false</default>
+                <label>development and construction</label>
+            </value>
+            <value>
+                <fullName>digital readiness</fullName>
+                <default>false</default>
+                <label>digital readiness</label>
+            </value>
+            <value>
+                <fullName>digital transformation</fullName>
+                <default>false</default>
+                <label>digital transformation</label>
+            </value>
+            <value>
+                <fullName>digital twin</fullName>
+                <default>false</default>
+                <label>digital twin</label>
+            </value>
+            <value>
+                <fullName>document processing</fullName>
+                <default>false</default>
+                <label>document processing</label>
+            </value>
+            <value>
+                <fullName>document sharing</fullName>
+                <default>false</default>
+                <label>document sharing</label>
+            </value>
+            <value>
+                <fullName>downtime</fullName>
+                <default>false</default>
+                <label>downtime</label>
+            </value>
+            <value>
+                <fullName>dozers</fullName>
+                <default>false</default>
+                <label>dozers</label>
+            </value>
+            <value>
+                <fullName>drilling</fullName>
+                <default>false</default>
+                <label>drilling</label>
+            </value>
+            <value>
+                <fullName>drones</fullName>
+                <default>false</default>
+                <label>drones</label>
+            </value>
+            <value>
+                <fullName>dump trucks</fullName>
+                <default>false</default>
+                <label>dump trucks</label>
+            </value>
+            <value>
+                <fullName>electrical submersible pump</fullName>
+                <default>false</default>
+                <label>electrical submersible pump</label>
+            </value>
+            <value>
+                <fullName>electrified trucks</fullName>
+                <default>false</default>
+                <label>electrified trucks</label>
+            </value>
+            <value>
+                <fullName>emissions</fullName>
+                <default>false</default>
+                <label>emissions</label>
+            </value>
+            <value>
+                <fullName>energy consumption optimisation</fullName>
+                <default>false</default>
+                <label>energy consumption optimisation</label>
+            </value>
+            <value>
+                <fullName>engineering and planning</fullName>
+                <default>false</default>
+                <label>engineering and planning</label>
+            </value>
+            <value>
+                <fullName>enhancing oil recovery</fullName>
+                <default>false</default>
+                <label>enhancing oil recovery</label>
+            </value>
+            <value>
+                <fullName>environmental compliance</fullName>
+                <default>false</default>
+                <label>environmental compliance</label>
+            </value>
+            <value>
+                <fullName>environmental monitoring</fullName>
+                <default>false</default>
+                <label>environmental monitoring</label>
+            </value>
+            <value>
+                <fullName>ESP</fullName>
+                <default>false</default>
+                <label>ESP</label>
+            </value>
+            <value>
+                <fullName>ex-mine</fullName>
+                <default>false</default>
+                <label>ex-mine</label>
+            </value>
+            <value>
+                <fullName>excavation equipment</fullName>
+                <default>false</default>
+                <label>excavation equipment</label>
+            </value>
+            <value>
+                <fullName>exoskeleton</fullName>
+                <default>false</default>
+                <label>exoskeleton</label>
+            </value>
+            <value>
+                <fullName>exploration</fullName>
+                <default>false</default>
+                <label>exploration</label>
+            </value>
+            <value>
+                <fullName>extracting</fullName>
+                <default>false</default>
+                <label>extracting</label>
+            </value>
+            <value>
+                <fullName>extraction</fullName>
+                <default>false</default>
+                <label>extraction</label>
+            </value>
+            <value>
+                <fullName>financial analysis</fullName>
+                <default>false</default>
+                <label>financial analysis</label>
+            </value>
+            <value>
+                <fullName>fleet management</fullName>
+                <default>false</default>
+                <label>fleet management</label>
+            </value>
+            <value>
+                <fullName>flood prevention</fullName>
+                <default>false</default>
+                <label>flood prevention</label>
+            </value>
+            <value>
+                <fullName>flotation</fullName>
+                <default>false</default>
+                <label>flotation</label>
+            </value>
+            <value>
+                <fullName>fuel consumption</fullName>
+                <default>false</default>
+                <label>fuel consumption</label>
+            </value>
+            <value>
+                <fullName>geological modelling</fullName>
+                <default>false</default>
+                <label>geological modelling</label>
+            </value>
+            <value>
+                <fullName>geology</fullName>
+                <default>false</default>
+                <label>geology</label>
+            </value>
+            <value>
+                <fullName>geomechanical modelling</fullName>
+                <default>false</default>
+                <label>geomechanical modelling</label>
+            </value>
+            <value>
+                <fullName>geophysical imaging</fullName>
+                <default>false</default>
+                <label>geophysical imaging</label>
+            </value>
+            <value>
+                <fullName>GNSS</fullName>
+                <default>false</default>
+                <label>GNSS</label>
+            </value>
+            <value>
+                <fullName>GPS</fullName>
+                <default>false</default>
+                <label>GPS</label>
+            </value>
+            <value>
+                <fullName>health and safety</fullName>
+                <default>false</default>
+                <label>health and safety</label>
+            </value>
+            <value>
+                <fullName>heat</fullName>
+                <default>false</default>
+                <label>heat</label>
+            </value>
+            <value>
+                <fullName>high-grade mineral recovery</fullName>
+                <default>false</default>
+                <label>high-grade mineral recovery</label>
+            </value>
+            <value>
+                <fullName>hydrogeological modelling</fullName>
+                <default>false</default>
+                <label>hydrogeological modelling</label>
+            </value>
+            <value>
+                <fullName>in-mine</fullName>
+                <default>false</default>
+                <label>in-mine</label>
+            </value>
+            <value>
+                <fullName>increasing equipment reliability</fullName>
+                <default>false</default>
+                <label>increasing equipment reliability</label>
+            </value>
+            <value>
+                <fullName>increasing productivity &amp; recovery</fullName>
+                <default>false</default>
+                <label>increasing productivity &amp; recovery</label>
+            </value>
+            <value>
+                <fullName>industry benchmarking</fullName>
+                <default>false</default>
+                <label>industry benchmarking</label>
+            </value>
+            <value>
+                <fullName>integrity reliability and maintenance</fullName>
+                <default>false</default>
+                <label>integrity reliability and maintenance</label>
+            </value>
+            <value>
+                <fullName>inventory management</fullName>
+                <default>false</default>
+                <label>inventory management</label>
+            </value>
+            <value>
+                <fullName>IoT</fullName>
+                <default>false</default>
+                <label>IoT</label>
+            </value>
+            <value>
+                <fullName>LiDAR</fullName>
+                <default>false</default>
+                <label>LiDAR</label>
+            </value>
+            <value>
+                <fullName>local communities</fullName>
+                <default>false</default>
+                <label>local communities</label>
+            </value>
+            <value>
+                <fullName>lubricant monitoring</fullName>
+                <default>false</default>
+                <label>lubricant monitoring</label>
+            </value>
+            <value>
+                <fullName>machine learning</fullName>
+                <default>false</default>
+                <label>machine learning</label>
+            </value>
+            <value>
+                <fullName>machine vision</fullName>
+                <default>false</default>
+                <label>machine vision</label>
+            </value>
+            <value>
+                <fullName>managing data</fullName>
+                <default>false</default>
+                <label>managing data</label>
+            </value>
+            <value>
+                <fullName>metals and mining</fullName>
+                <default>false</default>
+                <label>metals and mining</label>
+            </value>
+            <value>
+                <fullName>metals leaching</fullName>
+                <default>false</default>
+                <label>metals leaching</label>
+            </value>
+            <value>
+                <fullName>mobile app</fullName>
+                <default>false</default>
+                <label>mobile app</label>
+            </value>
+            <value>
+                <fullName>modelling</fullName>
+                <default>false</default>
+                <label>modelling</label>
+            </value>
+            <value>
+                <fullName>navigation</fullName>
+                <default>false</default>
+                <label>navigation</label>
+            </value>
+            <value>
+                <fullName>noise pollution</fullName>
+                <default>false</default>
+                <label>noise pollution</label>
+            </value>
+            <value>
+                <fullName>oil and gas</fullName>
+                <default>false</default>
+                <label>oil and gas</label>
+            </value>
+            <value>
+                <fullName>oil flow</fullName>
+                <default>false</default>
+                <label>oil flow</label>
+            </value>
+            <value>
+                <fullName>open-pit</fullName>
+                <default>false</default>
+                <label>open-pit</label>
+            </value>
+            <value>
+                <fullName>operations and production</fullName>
+                <default>false</default>
+                <label>operations and production</label>
+            </value>
+            <value>
+                <fullName>optimising process parameters</fullName>
+                <default>false</default>
+                <label>optimising process parameters</label>
+            </value>
+            <value>
+                <fullName>ore base modelling</fullName>
+                <default>false</default>
+                <label>ore base modelling</label>
+            </value>
+            <value>
+                <fullName>ore sorting</fullName>
+                <default>false</default>
+                <label>ore sorting</label>
+            </value>
+            <value>
+                <fullName>ore tracking</fullName>
+                <default>false</default>
+                <label>ore tracking</label>
+            </value>
+            <value>
+                <fullName>ore type detection</fullName>
+                <default>false</default>
+                <label>ore type detection</label>
+            </value>
+            <value>
+                <fullName>ore-dressing plants</fullName>
+                <default>false</default>
+                <label>ore-dressing plants</label>
+            </value>
+            <value>
+                <fullName>petrophysical analysis</fullName>
+                <default>false</default>
+                <label>petrophysical analysis</label>
+            </value>
+            <value>
+                <fullName>pipeline leakage</fullName>
+                <default>false</default>
+                <label>pipeline leakage</label>
+            </value>
+            <value>
+                <fullName>planning</fullName>
+                <default>false</default>
+                <label>planning</label>
+            </value>
+            <value>
+                <fullName>pollution</fullName>
+                <default>false</default>
+                <label>pollution</label>
+            </value>
+            <value>
+                <fullName>pore pressure models</fullName>
+                <default>false</default>
+                <label>pore pressure models</label>
+            </value>
+            <value>
+                <fullName>PPE</fullName>
+                <default>false</default>
+                <label>PPE</label>
+            </value>
+            <value>
+                <fullName>predictive analytics</fullName>
+                <default>false</default>
+                <label>predictive analytics</label>
+            </value>
+            <value>
+                <fullName>predictive maintenance</fullName>
+                <default>false</default>
+                <label>predictive maintenance</label>
+            </value>
+            <value>
+                <fullName>prescriptive analytics</fullName>
+                <default>false</default>
+                <label>prescriptive analytics</label>
+            </value>
+            <value>
+                <fullName>preventative maintenance</fullName>
+                <default>false</default>
+                <label>preventative maintenance</label>
+            </value>
+            <value>
+                <fullName>pricing forecast</fullName>
+                <default>false</default>
+                <label>pricing forecast</label>
+            </value>
+            <value>
+                <fullName>process optimisation</fullName>
+                <default>false</default>
+                <label>process optimisation</label>
+            </value>
+            <value>
+                <fullName>processing</fullName>
+                <default>false</default>
+                <label>processing</label>
+            </value>
+            <value>
+                <fullName>production</fullName>
+                <default>false</default>
+                <label>production</label>
+            </value>
+            <value>
+                <fullName>productivity and education</fullName>
+                <default>false</default>
+                <label>productivity and education</label>
+            </value>
+            <value>
+                <fullName>protecting the environment</fullName>
+                <default>false</default>
+                <label>protecting the environment</label>
+            </value>
+            <value>
+                <fullName>radar</fullName>
+                <default>false</default>
+                <label>radar</label>
+            </value>
+            <value>
+                <fullName>real-time analytics</fullName>
+                <default>false</default>
+                <label>real-time analytics</label>
+            </value>
+            <value>
+                <fullName>real-time data relay</fullName>
+                <default>false</default>
+                <label>real-time data relay</label>
+            </value>
+            <value>
+                <fullName>reducing utilities consumption</fullName>
+                <default>false</default>
+                <label>reducing utilities consumption</label>
+            </value>
+            <value>
+                <fullName>remote controlled equipment</fullName>
+                <default>false</default>
+                <label>remote controlled equipment</label>
+            </value>
+            <value>
+                <fullName>remote health diagnostics</fullName>
+                <default>false</default>
+                <label>remote health diagnostics</label>
+            </value>
+            <value>
+                <fullName>remote maintenance</fullName>
+                <default>false</default>
+                <label>remote maintenance</label>
+            </value>
+            <value>
+                <fullName>remote monitoring</fullName>
+                <default>false</default>
+                <label>remote monitoring</label>
+            </value>
+            <value>
+                <fullName>remotely controlled equipment</fullName>
+                <default>false</default>
+                <label>remotely controlled equipment</label>
+            </value>
+            <value>
+                <fullName>RFID</fullName>
+                <default>false</default>
+                <label>RFID</label>
+            </value>
+            <value>
+                <fullName>risk management</fullName>
+                <default>false</default>
+                <label>risk management</label>
+            </value>
+            <value>
+                <fullName>robotics</fullName>
+                <default>false</default>
+                <label>robotics</label>
+            </value>
+            <value>
+                <fullName>rock fragmentation analysis</fullName>
+                <default>false</default>
+                <label>rock fragmentation analysis</label>
+            </value>
+            <value>
+                <fullName>ROV</fullName>
+                <default>false</default>
+                <label>ROV</label>
+            </value>
+            <value>
+                <fullName>safety compliance</fullName>
+                <default>false</default>
+                <label>safety compliance</label>
+            </value>
+            <value>
+                <fullName>sag mill</fullName>
+                <default>false</default>
+                <label>sag mill</label>
+            </value>
+            <value>
+                <fullName>sand control</fullName>
+                <default>false</default>
+                <label>sand control</label>
+            </value>
+            <value>
+                <fullName>seismic data analytics</fullName>
+                <default>false</default>
+                <label>seismic data analytics</label>
+            </value>
+            <value>
+                <fullName>sensors</fullName>
+                <default>false</default>
+                <label>sensors</label>
+            </value>
+            <value>
+                <fullName>shipping</fullName>
+                <default>false</default>
+                <label>shipping</label>
+            </value>
+            <value>
+                <fullName>simulation modelling</fullName>
+                <default>false</default>
+                <label>simulation modelling</label>
+            </value>
+            <value>
+                <fullName>smart tagging</fullName>
+                <default>false</default>
+                <label>smart tagging</label>
+            </value>
+            <value>
+                <fullName>smelting</fullName>
+                <default>false</default>
+                <label>smelting</label>
+            </value>
+            <value>
+                <fullName>subsurface data analytics</fullName>
+                <default>false</default>
+                <label>subsurface data analytics</label>
+            </value>
+            <value>
+                <fullName>subsurface modelling</fullName>
+                <default>false</default>
+                <label>subsurface modelling</label>
+            </value>
+            <value>
+                <fullName>system dynamics</fullName>
+                <default>false</default>
+                <label>system dynamics</label>
+            </value>
+            <value>
+                <fullName>telecommunication</fullName>
+                <default>false</default>
+                <label>telecommunication</label>
+            </value>
+            <value>
+                <fullName>telemedicine</fullName>
+                <default>false</default>
+                <label>telemedicine</label>
+            </value>
+            <value>
+                <fullName>trading</fullName>
+                <default>false</default>
+                <label>trading</label>
+            </value>
+            <value>
+                <fullName>transportation</fullName>
+                <default>false</default>
+                <label>transportation</label>
+            </value>
+            <value>
+                <fullName>trolley-assist system</fullName>
+                <default>false</default>
+                <label>trolley-assist system</label>
+            </value>
+            <value>
+                <fullName>tyre consumption</fullName>
+                <default>false</default>
+                <label>tyre consumption</label>
+            </value>
+            <value>
+                <fullName>UAV</fullName>
+                <default>false</default>
+                <label>UAV</label>
+            </value>
+            <value>
+                <fullName>underground mines</fullName>
+                <default>false</default>
+                <label>underground mines</label>
+            </value>
+            <value>
+                <fullName>underwater operations</fullName>
+                <default>false</default>
+                <label>underwater operations</label>
+            </value>
+            <value>
+                <fullName>upstream</fullName>
+                <default>false</default>
+                <label>upstream</label>
+            </value>
+            <value>
+                <fullName>well data analytics</fullName>
+                <default>false</default>
+                <label>well data analytics</label>
+            </value>
+            <value>
+                <fullName>well modelling</fullName>
+                <default>false</default>
+                <label>well modelling</label>
+            </value>
+            <value>
+                <fullName>well optimisation</fullName>
+                <default>false</default>
+                <label>well optimisation</label>
+            </value>
+            <value>
+                <fullName>worker safety</fullName>
+                <default>false</default>
+                <label>worker safety</label>
+            </value>
+            <value>
+                <fullName>working conditions &amp; environment</fullName>
+                <default>false</default>
+                <label>working conditions &amp; environment</label>
+            </value>
+            <value>
+                <fullName>ISO27001</fullName>
+                <default>false</default>
+                <label>ISO27001</label>
+            </value>
+            <value>
+                <fullName>ISO14001</fullName>
+                <default>false</default>
+                <label>ISO14001</label>
+            </value>
+            <value>
+                <fullName>ISO9001</fullName>
+                <default>false</default>
+                <label>ISO9001</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

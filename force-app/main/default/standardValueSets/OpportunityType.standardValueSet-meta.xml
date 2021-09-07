@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Buyside Sales</fullName>
+        <default>true</default>
+        <label>Buyside Sales</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Solution Provider Onboarding</fullName>
+        <default>false</default>
+        <label>Solution Provider Onboarding</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Productisation</fullName>
+        <default>false</default>
+        <label>Productisation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Referral Partner</fullName>
+        <default>false</default>
+        <label>Referral Partner</label>
+    </standardValue>
+</StandardValueSet>

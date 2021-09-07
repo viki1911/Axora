@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sanction_Check_Date__c</fullName>
+    <description>Last date a sanctions check was done</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Last date a sanctions check was done</inlineHelpText>
+    <label>Sanction Check Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

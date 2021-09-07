@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ListPrice_Large__c</fullName>
+    <description>List Price for large solutions</description>
+    <externalId>false</externalId>
+    <inlineHelpText>List Price USD for Large size solution. 24 months worth if SaaS</inlineHelpText>
+    <label>Large List Price</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

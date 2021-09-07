@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Decision_Making_Cycle__c</fullName>
+    <description>To be displayed on all opps</description>
+    <externalId>false</externalId>
+    <formula>IMAGE(&quot;https://axora--c.documentforce.com/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Png&amp;versionId=0684K000000TAUt&amp;operationContext=CHATTER&amp;contentId=05T4K000005XF2Q&quot;,
+						&apos;decision making cycle&apos;,300,300)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>The Decision Making Cycle</inlineHelpText>
+    <label>Decision Making Cycle</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

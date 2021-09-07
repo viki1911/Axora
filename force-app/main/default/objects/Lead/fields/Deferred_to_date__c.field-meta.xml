@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Deferred_to_date__c</fullName>
+    <description>Updated automatically, also can be manually updated</description>
+    <externalId>false</externalId>
+    <inlineHelpText>You will automatically be notified when this lead is ready to be re-engaged</inlineHelpText>
+    <label>Deferred to date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X2_Intention_to_Move__c</fullName>
+    <description>Summarise the customer&apos;s intention to move.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Summarise the customer&apos;s intention to move. Key blocker here is Doubt.</inlineHelpText>
+    <label>2. Intention to Move</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Html</type>
+    <visibleLines>25</visibleLines>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Solution_Code_Format</fullName>
+    <active>false</active>
+    <errorConditionFormula>NOT(
+  REGEX(Solution_Code__c, &quot;AX[0-9]{5}&quot;)
+)</errorConditionFormula>
+    <errorDisplayField>Solution_Code__c</errorDisplayField>
+    <errorMessage>Solution Code does not match AX00000 format</errorMessage>
+</ValidationRule>

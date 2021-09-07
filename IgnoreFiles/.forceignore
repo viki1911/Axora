@@ -1,0 +1,40 @@
+# List files or directories below to ignore them when running force:source:push, force:source:pull, and force:source:status
+# More information: https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_exclude_source.htm
+#
+
+force-app/main/default/sites/*
+force-app/main/default/siteDotComSites/*
+force-app/main/default/networkBranding/*
+force-app/main/default/networks/*
+
+force-app/main/default/flows/BCAL_Email_Confirmations.flow 
+force-app/main/default/flows/Customer_Uncontactable_Flow.flow
+force-app/main/default/flows/Email_Confirmations.flow 
+force-app/main/default/pathAssistants/*
+force-app/main/default/objectTranslations/*
+force-app/main/default/SharingRules/*
+force-app/main/default/profiles/*
+force-app/main/default/installedPackages/*
+force-app/main/default/documents/et4ae5__ExactTargetDocuments
+force-app/main/default/settings/CaseClassification.settings-meta.xml
+force-app/main/default/contentassets/Property_1logos_Property_2main_Prop.asset
+force-app/main/default/settings/Case.settings-meta.xml
+
+# Apex Classes
+force-app/main/default/classes/RHX_TEST_et4ae5_IndividualEmailResult.cls
+force-app/main/default/classes/VehicleInformation_CC.cls
+force-app/main/default/classes/VehicleInformation_CCTest.cls
+force-app/main/default/classes/VehicleInformation_CC.cls-meta.xml
+force-app/main/default/classes/VehicleInformation_CCTest.cls-meta.xml
+force-app/main/default/pages/VehicleInformation.page 
+force-app/main/default/pages/VehicleInformation.page-meta.xml
+
+# LWC configuration files
+**/jsconfig.json
+**/.eslintrc.json
+
+# LWC Jest
+**/__tests__/**
+
+force-app/main/default/contentassets/Property_1logos_Property_2main_Prop.asset
+force-app/main/default/contentassets/Property_1logos_Property_2main_Prop.asset.xml

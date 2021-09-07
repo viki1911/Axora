@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Next_Subscription_Invoice__c</fullName>
+    <description>When is the next subscription invoice due to be raised ?</description>
+    <externalId>false</externalId>
+    <inlineHelpText>When is the next subscription invoice due to be raised ?</inlineHelpText>
+    <label>Next Subscription Invoice</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

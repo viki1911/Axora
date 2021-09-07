@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Account__c</columns>
+    <columns>BFA_Complete__c</columns>
+    <columns>BFA_Rating__c</columns>
+    <columns>SPA_Complete__c</columns>
+    <columns>TFA_Complete__c</columns>
+    <columns>TFA_Rating__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

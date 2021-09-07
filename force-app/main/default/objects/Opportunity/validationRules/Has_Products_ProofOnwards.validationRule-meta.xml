@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Has_Products_ProofOnwards</fullName>
+    <active>true</active>
+    <description>Ensures has a product at or after Proof.</description>
+    <errorConditionFormula>(ISPICKVAL(StageName, &apos;Proof&apos;) || ISPICKVAL(StageName, &apos;Negotiate&apos;))
+&amp;&amp;(Number_of_Products__c =0) &amp;&amp; ( RecordType.Name =&apos;Buyer&apos;)</errorConditionFormula>
+    <errorMessage>You must have a product attached at Proof stage onwards.</errorMessage>
+</ValidationRule>

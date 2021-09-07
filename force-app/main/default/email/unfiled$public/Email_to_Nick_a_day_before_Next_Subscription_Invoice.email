@@ -1,0 +1,8 @@
+Hi Nick,
+
+The Next Subscription Invoice Date Due Tomorrow - {!Account.Next_Subscription_Invoice__c} for Account {!Account.Name}
+Please click the link below for more details:
+{!Account.Link}
+
+Best Regards,
+Team Axora

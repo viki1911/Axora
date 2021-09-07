@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X1_Motivation_to_Move__c</fullName>
+    <description>Summary of insights on customer&apos;s motivation to move</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Summarise the customer&apos;s motivation to move. Note blocker here can be Justification.</inlineHelpText>
+    <label>1. Motivation to Move</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Html</type>
+    <visibleLines>25</visibleLines>
+</CustomField>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Transaction_Fee_Validation</fullName>
+    <active>true</active>
+    <description>Make sure that Transaction Fee matches current Product Transaction Fee</description>
+    <errorConditionFormula>Transaction_Fee__c &lt;&gt; PricebookEntry.Product2.Transaction_Fee__c</errorConditionFormula>
+    <errorDisplayField>Transaction_Fee__c</errorDisplayField>
+    <errorMessage>Must match current Product Transaction Fee</errorMessage>
+</ValidationRule>

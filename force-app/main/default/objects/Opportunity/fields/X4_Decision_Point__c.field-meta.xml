@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X4_Decision_Point__c</fullName>
+    <description>Summarise customer&apos;s approach to committing</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Summarise customer&apos;s approach to committing. Note key blocker here is Risk Perception.</inlineHelpText>
+    <label>4. Decision Point</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Html</type>
+    <visibleLines>25</visibleLines>
+</CustomField>

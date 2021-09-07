@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Export_License_Outcome__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Record the outcome of the export license request here</inlineHelpText>
+    <label>Export License Outcome</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Pass - no export license required</fullName>
+                <default>false</default>
+                <label>Pass - no export license required</label>
+            </value>
+            <value>
+                <fullName>Pass - export license received</fullName>
+                <default>false</default>
+                <label>Pass - export license received</label>
+            </value>
+            <value>
+                <fullName>Fail - breaches sanctions</fullName>
+                <default>false</default>
+                <label>Fail - breaches sanctions</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

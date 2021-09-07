@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Case-3266</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Email to Nick a day before Next Subscription Invoice</name>
+    <style>none</style>
+    <subject>Next Subscription Invoice Date Due Tomorrow - {!Account.Next_Subscription_Invoice__c}</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

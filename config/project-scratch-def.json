@@ -1,30 +1,50 @@
 {
-  "orgName": "Demo company",
+  "orgName": "Axora",
   "edition": "Enterprise",
-  "features": [
-    "Knowledge",
-    "ServiceCloud",
-    "Entitlements",
-    "AuthorApex",
-    "Communities",
-    "DefaultWorkflowUser",
-    "MarketingUser"
-  ],
+  "features": ["EnableSetPasswordInApi",
+              "Communities",
+              "SharedActivities",
+              "DefaultWorkflowUser",
+              "ServiceCloud",
+              "WorkplaceCommandCenterUser",
+              "CaseClassification",
+              "Entitlements",
+              "ContactsToMultipleAccounts",
+              "LiveAgent"],
   "settings": {
+    
+    "accountSettings": {
+      "enableRelateContactToMultipleAccounts": true
+    },
+
     "lightningExperienceSettings": {
       "enableS1DesktopEnabled": true
     },
-    "securitySettings": {
-      "passwordPolicies": {
-        "enableSetPasswordInApi": true
+    "currencySettings":{ 
+      "enableMultiCurrency": true 
+    },
+    "orgPreferenceSettings": {
+      "chatterEnabled"  : true
+   },
+    "caseSettings": {
+      "emailToCase": {
+        "enableEmailToCase": true
       }
     },
-    "mobileSettings": {
-      "enableS1EncryptedStoragePref2": false
+    "quoteSettings": {
+      "enableQuote" : true
+    },
+    "entitlementSettings": {
+      "enableEntitlements": true
+    },
+    "emailAdministrationSettings": {
+      "enableEnhancedEmailEnabled": true
     },
     "communitiesSettings": {
       "enableNetworksEnabled": true
+    },
+    "mobileSettings": {
+      "enableS1EncryptedStoragePref2": false
     }
   }
 }
-
